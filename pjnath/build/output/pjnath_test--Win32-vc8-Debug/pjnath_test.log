@@ -1,0 +1,301 @@
+﻿已經開始建置於 2015/2/25 下午 04:32:41。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjnath_test.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\.\output\pjnath_test--Win32-vc8-Debug\pjnath_test.exe) does not match the Linker's OutputFile property value (C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\bin\pjnath-test-i386-Win32-vc8-Debug.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(pjnath_test) does not match the Linker's OutputFile property value (pjnath-test-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\pjnath-test-i386-Win32-vc8-Debug.exe" /NOLOGO netapi32.lib ws2_32.lib odbc32.lib odbccp32.lib ole32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\output\pjnath_test--Win32-vc8-Debug\\pjnath_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\output\pjnath_test--Win32-vc8-Debug\pjnath_test.lib" /MACHINE:X86 /SAFESEH ".\output\pjnath_test--Win32-vc8-Debug\\concur_test.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\ice_test.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\main.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\server.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\sess_auth.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\stun.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\stun_sock_test.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\test.obj"
+         ".\output\pjnath_test--Win32-vc8-Debug\\turn_sock_test.obj"
+     1>concur_test.obj : warning LNK4075: 忽略 '/EDITANDCONTINUE'，由於 '/SAFESEH' 規格
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_ioqueue_create 在函式 _stun_destroy_test 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_ioqueue_create
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_ioqueue_create
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_ioqueue_destroy 在函式 _stun_destroy_test 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_ioqueue_destroy
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_ioqueue_destroy
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_ioqueue_poll 在函式 _worker_thread_proc 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_ioqueue_poll
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_ioqueue_poll
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_init 在函式 _stun_destroy_test 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_get_len 在函式 _server_thread_proc 中被參考
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_get_len
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_get_len
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_get_len
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_get_port 在函式 _stun_destroy_test 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_get_port
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sock_socket 在函式 _stun_destroy_test 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sock_socket
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sock_close 在函式 _stun_destroy_test 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sock_close
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sock_bind 在函式 _stun_destroy_test 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sock_bind
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sock_getsockname 在函式 _stun_destroy_test 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sock_getsockname
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sock_recvfrom 在函式 _server_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sock_recvfrom
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sock_sendto 在函式 _server_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sock_sendto
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_perror_1 在函式 _server_thread_proc 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>concur_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_log_get_level
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_3
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_log_3
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_3
+     1>concur_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_3
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_log_3
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_log_3
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_log_3
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_log_4 在函式 _server_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_log_4
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_log_4
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_lock_create_recursive_mutex 在函式 _stun_destroy_test 中被參考
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_lock_create_recursive_mutex
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>concur_test.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_str
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_thread_create 在函式 _stun_destroy_test 中被參考
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_thread_create
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_thread_create
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_thread_join 在函式 _stun_destroy_test 中被參考
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_thread_join
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_thread_join
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_thread_sleep 在函式 _stun_destroy_test 中被參考
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_thread_sleep
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_event_create 在函式 _stun_destroy_test 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_event_wait 在函式 _server_thread_proc 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_event_set 在函式 _stun_destroy_test_session 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_event_reset 在函式 _stun_destroy_test_session 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_event_destroy 在函式 _stun_destroy_test 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_pool_create
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_create
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_create
+     1>concur_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_create
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_create
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_pool_create
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_pool_create
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_pool_release
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_release
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_release
+     1>concur_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_release
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_release
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_pool_release
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_pool_release
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_pool_reset 在函式 _server_thread_proc 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_caching_pool_init 在函式 _stun_destroy_test 中被參考
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_caching_pool_init
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_caching_pool_destroy 在函式 _stun_destroy_test 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_rand 在函式 _stun_destroy_test 中被參考
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _PJ_FD_ZERO 在函式 _server_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _PJ_FD_ZERO
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _PJ_FD_SET 在函式 _server_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _PJ_FD_SET
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _PJ_FD_ISSET 在函式 _server_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _PJ_FD_ISSET
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_sock_select 在函式 _server_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sock_select
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_create 在函式 _stun_destroy_test 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_create
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_create
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_create
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_destroy 在函式 _stun_destroy_test 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_destroy
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_destroy
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_destroy
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_set_lock 在函式 _stun_destroy_test 中被參考
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_set_lock
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_poll 在函式 _worker_thread_proc 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_poll
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_poll
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_timer_heap_poll
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_create_response 在函式 _server_thread_proc 中被參考
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_create_response
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_encode 在函式 _server_thread_proc 中被參考
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_encode
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_encode
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_encode
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_decode 在函式 _server_thread_proc 中被參考
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_decode
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_decode
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_decode
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_create 在函式 _stun_destroy_test_session 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_sock_create
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_start 在函式 _stun_destroy_test_session 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_sock_start
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_destroy 在函式 _stun_destroy_test_session 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_sock_destroy
+     1>concur_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_get_user_data 在函式 _stun_sock_on_status 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_sock_get_user_data
+     1>stun_sock_test.obj : error LNK2019: 無法解析的外部符號 _PJ_AF_INET 在函式 _pj_bzero 中被參考
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _PJ_AF_INET
+     1>concur_test.obj : error LNK2001: 無法解析的外部符號 _PJ_AF_INET
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _PJ_AF_INET
+     1>server.obj : error LNK2001: 無法解析的外部符號 _PJ_AF_INET
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _PJ_AF_INET
+     1>concur_test.obj : error LNK2001: 無法解析的外部符號 _PJ_SOCK_DGRAM
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _PJ_SOCK_DGRAM
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_time_val_normalize 在函式 _perform_test2 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_time_val_normalize
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_time_val_normalize
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_print 在函式 _create_ice_strans 中被參考
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_print
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_print
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_cmp 在函式 _check_pair 中被參考
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_cmp
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_cmp
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_gethostip 在函式 _create_ice_strans 中被參考
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_gethostip
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_gethostip
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_create_unique_string 在函式 _create_ice_strans 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_gettimeofday 在函式 _perform_test2 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_gettimeofday
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_gettimeofday
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_gettimeofday
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_calloc
+     1>ice_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_calloc
+     1>server.obj : error LNK2001: 無法解析的外部符號 _pj_pool_calloc
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_pool_calloc
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_calloc
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_dns_resolver_create 在函式 _create_sess 中被參考
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_dns_resolver_create
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_dns_resolver_set_ns 在函式 _create_sess 中被參考
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_dns_resolver_set_ns
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_dns_resolver_destroy 在函式 _destroy_sess 中被參考
+     1>turn_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_dns_resolver_destroy
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_sess_role_name 在函式 _ice_test 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_cfg_default 在函式 _create_ice_strans 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_create 在函式 _create_ice_strans 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_destroy 在函式 _destroy_sess 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_get_user_data 在函式 _ice_on_ice_complete 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_init_ice 在函式 _perform_test2 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_enum_cands 在函式 _start_ice 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_start_ice 在函式 _start_ice 中被參考
+     1>ice_test.obj : error LNK2019: 無法解析的外部符號 _pj_ice_strans_get_valid_pair 在函式 _check_pair 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_strerror 在函式 _turn_on_data_recvfrom 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_strerror
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_strerror
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_strerror
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_ntohs 在函式 _turn_on_data_recvfrom 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_ntohs
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_in_init 在函式 _create_test_server 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_in_init
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_sockaddr_in_init
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_get_addr 在函式 _alloc_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_cp 在函式 _alloc_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_get_method_name 在函式 _turn_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_get_class_name 在函式 _turn_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_create 在函式 _turn_on_data_recvfrom 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_create
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_create
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_check 在函式 _turn_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_find_attr 在函式 _alloc_on_data_recvfrom 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_find_attr
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_find_attr
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_add_sockaddr_attr 在函式 _create_success_response 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_add_sockaddr_attr
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_add_string_attr 在函式 _create_success_response 中被參考
+     1>sess_auth.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_add_string_attr
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_add_string_attr
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_add_uint_attr 在函式 _create_success_response 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_add_uint_attr
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_add_msgint_attr 在函式 _create_success_response 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_add_msgint_attr
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_add_binary_attr 在函式 _turn_on_data_recvfrom 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_add_binary_attr
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stun_create_key 在函式 _create_success_response 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_create_key
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_strdup2 在函式 _create_test_server 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_stricmp2 在函式 _turn_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_dns_init_srv_rr 在函式 _create_test_server 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_dns_init_a_rr 在函式 _create_test_server 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_ioqueue_op_key_init 在函式 _create_test_server 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_ioqueue_op_key_init
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_dns_server_create 在函式 _create_test_server 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_dns_server_destroy 在函式 _destroy_test_server 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_dns_server_add_rec 在函式 _create_test_server 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_activesock_create_udp 在函式 _create_test_server 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_activesock_create_udp
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_activesock_close 在函式 _destroy_test_server 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_activesock_close
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_activesock_set_user_data 在函式 _turn_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_activesock_get_user_data 在函式 _alloc_on_data_recvfrom 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_activesock_get_user_data
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_activesock_start_recvfrom 在函式 _create_test_server 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_activesock_start_recvfrom
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_activesock_sendto 在函式 _alloc_on_data_recvfrom 中被參考
+     1>stun_sock_test.obj : error LNK2001: 無法解析的外部符號 _pj_activesock_sendto
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_array_erase 在函式 _turn_on_data_recvfrom 中被參考
+     1>server.obj : error LNK2019: 無法解析的外部符號 _pj_log_1 在函式 _turn_on_data_recvfrom 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_log_1
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_log_1
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_copy_addr 在函式 _create_std_server 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_sock_bind_in 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_strcmp2 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_thread_destroy 在函式 _destroy_client_server 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_sem_create 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_sem_wait 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_sem_post 在函式 _client_on_request_complete 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_sem_destroy 在函式 _destroy_client_server 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_clone 在函式 _client_on_request_complete 中被參考
+     1>stun.obj : error LNK2001: 無法解析的外部符號 _pj_stun_msg_clone
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_add_attr 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msgint_attr_create 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_session_create 在函式 _create_std_server 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_session_destroy 在函式 _destroy_client_server 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_session_set_credential 在函式 _create_std_server 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_session_create_req 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_session_send_msg 在函式 _run_client_test 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_session_respond 在函式 _server_on_rx_request 中被參考
+     1>sess_auth.obj : error LNK2019: 無法解析的外部符號 _pj_stun_session_on_rx_pkt 在函式 _client_thread 中被參考
+     1>stun.obj : error LNK2019: 無法解析的外部符號 _pj_stun_set_padding_char 在函式 _stun_test 中被參考
+     1>stun.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_dump 在函式 _fingerprint_test_vector 中被參考
+     1>stun.obj : error LNK2019: 無法解析的外部符號 _pj_stun_msg_add_uint64_attr 在函式 _create_msgint1 中被參考
+     1>stun.obj : error LNK2019: 無法解析的外部符號 _pj_stun_authenticate_request 在函式 _fingerprint_test_vector 中被參考
+     1>stun.obj : error LNK2019: 無法解析的外部符號 _pj_stun_authenticate_response 在函式 _fingerprint_test_vector 中被參考
+     1>stun_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_has_addr 在函式 _keep_alive_test 中被參考
+     1>stun_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_cfg_default 在函式 _create_client 中被參考
+     1>stun_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_set_user_data 在函式 _create_client 中被參考
+     1>stun_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_get_info 在函式 _keep_alive_test 中被參考
+     1>stun_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_sendto 在函式 _keep_alive_test 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_dump_config 在函式 _test_inner 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_init 在函式 _test_inner 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_log_set_level 在函式 _test_inner 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_log_set_decor 在函式 _test_inner 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_exception_id_name 在函式 _test_main 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_push_exception_handler_ 在函式 _test_main 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_pop_exception_handler_ 在函式 _test_main 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_thread_check_stack 在函式 _app_perror 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_count 在函式 _capture_pjlib_state 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pjlib_util_init 在函式 _test_inner 中被參考
+     1>test.obj : error LNK2019: 無法解析的外部符號 _pjnath_init 在函式 _test_inner 中被參考
+     1>test.obj : error LNK2001: 無法解析的外部符號 _pj_pool_factory_default_policy
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_alloc_param_default 在函式 _create_test_session 中被參考
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_state_name 在函式 _destroy_test 中被參考
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_create 在函式 _create_test_session 中被參考
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_destroy 在函式 _destroy_session 中被參考
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_set_user_data 在函式 _turn_on_state 中被參考
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_get_user_data 在函式 _turn_on_rx_data 中被參考
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_get_info 在函式 _destroy_test 中被參考
+     1>turn_sock_test.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_alloc 在函式 _create_test_session 中被參考
+     1>..\bin\pjnath-test-i386-Win32-vc8-Debug.exe : fatal error LNK1120: 148 個無法解析的外部符號
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjnath_test.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.46

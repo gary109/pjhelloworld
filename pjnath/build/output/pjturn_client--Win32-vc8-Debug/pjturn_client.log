@@ -1,0 +1,63 @@
+﻿已經開始建置於 2015/2/16 下午 02:23:02。
+     1>節點 3 (Build 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjturn_client.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\.\output\pjturn_client--Win32-vc8-Debug\pjturn_client.exe) does not match the Linker's OutputFile property value (C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\bin\pjturn-client-i386-Win32-vc8-Debug.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(pjturn_client) does not match the Linker's OutputFile property value (pjturn-client-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\pjturn-client-i386-Win32-vc8-Debug.exe" /NOLOGO netapi32.lib ws2_32.lib odbc32.lib odbccp32.lib ole32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\output\pjturn_client--Win32-vc8-Debug\\pjturn_client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\output\pjturn_client--Win32-vc8-Debug\pjturn_client.lib" /MACHINE:X86 /SAFESEH ".\output\pjturn_client--Win32-vc8-Debug\\client_main.obj"
+     1>client_main.obj : warning LNK4075: 忽略 '/EDITANDCONTINUE'，由於 '/SAFESEH' 規格
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_init 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_strerror 在函式 _my_perror 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pjnath_init 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_print 在函式 _menu 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_cmp 在函式 _stun_sock_on_status 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_get_len 在函式 _console_main 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_sockaddr_cp 在函式 _stun_sock_on_status 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_str 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_create 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_destroy 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_timer_heap_poll 在函式 _worker_thread 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pjlib_util_init 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_dns_resolver_create 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_dns_resolver_set_ns 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_ioqueue_create 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_ioqueue_destroy 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_ioqueue_poll 在函式 _worker_thread 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_op_name 在函式 _stun_sock_on_status 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_cfg_default 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_create 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_start 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_destroy 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_get_user_data 在函式 _stun_sock_on_rx_data 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_get_info 在函式 _stun_sock_on_status 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_stun_sock_sendto 在函式 _console_main 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_state_name 在函式 _menu 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_create 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_destroy 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_get_info 在函式 _menu 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_alloc 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_set_perm 在函式 _console_main 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_sendto 在函式 _console_main 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_turn_sock_bind_channel 在函式 _console_main 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_getopt_long 在函式 _main 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_pool_create 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_pool_release 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_caching_pool_init 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_caching_pool_destroy 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_log_get_level 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_log_1 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_log_2 在函式 _create_relay 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_log_3 在函式 _my_perror 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_log_4 在函式 _stun_sock_on_status 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_thread_create 在函式 _init 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_thread_join 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2019: 無法解析的外部符號 _pj_thread_destroy 在函式 _client_shutdown 中被參考
+     1>client_main.obj : error LNK2001: 無法解析的外部符號 _PJ_AF_INET
+     1>client_main.obj : error LNK2001: 無法解析的外部符號 _pj_optarg
+     1>client_main.obj : error LNK2001: 無法解析的外部符號 _pj_optind
+     1>client_main.obj : error LNK2001: 無法解析的外部符號 _pj_pool_factory_default_policy
+     1>..\bin\pjturn-client-i386-Win32-vc8-Debug.exe : fatal error LNK1120: 50 個無法解析的外部符號
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjturn_client.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.33

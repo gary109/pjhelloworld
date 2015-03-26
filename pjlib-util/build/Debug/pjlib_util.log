@@ -1,0 +1,64 @@
+﻿已經開始建置於 2015/3/25 下午 12:16:35。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\pjlib-util\build\pjlib_util.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /Zi /nologo /W1 /WX- /O2 /Oy- /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\src\pjlib-util\base64.c" "..\src\pjlib-util\cli.c" "..\src\pjlib-util\cli_console.c" "..\src\pjlib-util\cli_telnet.c" "..\src\pjlib-util\crc32.c" "..\src\pjlib-util\dns.c" "..\src\pjlib-util\dns_dump.c" "..\src\pjlib-util\dns_server.c" "..\src\pjlib-util\errno.c" "..\src\pjlib-util\getopt.c" "..\src\pjlib-util\hmac_md5.c" "..\src\pjlib-util\hmac_sha1.c" "..\src\pjlib-util\http_client.c" "..\src\pjlib-util\json.c" "..\src\pjlib-util\md5.c" "..\src\pjlib-util\pcap.c" "..\src\pjlib-util\resolver.c" "..\src\pjlib-util\scanner.c" "..\src\pjlib-util\sha1.c" "..\src\pjlib-util\srv_resolver.c" "..\src\pjlib-util\string.c" "..\src\pjlib-util\stun_simple.c" "..\src\pjlib-util\stun_simple_client.c" "..\src\pjlib-util\symbols.c" "..\src\pjlib-util\xml.c"
+         base64.c
+         cli.c
+         cli_console.c
+         cli_telnet.c
+         crc32.c
+         dns.c
+         dns_dump.c
+         dns_server.c
+         errno.c
+         getopt.c
+         hmac_md5.c
+         hmac_sha1.c
+         http_client.c
+         json.c
+         md5.c
+         pcap.c
+         resolver.c
+         scanner.c
+         sha1.c
+         srv_resolver.c
+         正在產生程式碼...
+         正在編譯...
+         string.c
+         stun_simple.c
+         stun_simple_client.c
+         symbols.c
+         xml.c
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\Debug\pjlib_util.lib" /NOLOGO Debug\base64.obj
+         Debug\cli.obj
+         Debug\cli_console.obj
+         Debug\cli_telnet.obj
+         Debug\crc32.obj
+         Debug\dns.obj
+         Debug\dns_dump.obj
+         Debug\dns_server.obj
+         Debug\errno.obj
+         Debug\getopt.obj
+         Debug\hmac_md5.obj
+         Debug\hmac_sha1.obj
+         Debug\http_client.obj
+         Debug\json.obj
+         Debug\md5.obj
+         Debug\pcap.obj
+         Debug\resolver.obj
+         Debug\scanner.obj
+         Debug\sha1.obj
+         Debug\srv_resolver.obj
+         Debug\string.obj
+         Debug\stun_simple.obj
+         Debug\stun_simple_client.obj
+         Debug\symbols.obj
+         Debug\xml.obj
+         pjlib_util.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\Debug\pjlib_util.lib
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\pjlib-util\build\pjlib_util.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.59

@@ -1,0 +1,69 @@
+﻿已經開始建置於 2015/2/25 下午 04:33:01。
+     1>節點 5 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\pjlib_util.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjlib_util--Win32-vc8-Debug\\" /Fd".\output\pjlib_util--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjlib_util--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjlib-util\base64.c" "..\src\pjlib-util\cli.c" "..\src\pjlib-util\cli_console.c" "..\src\pjlib-util\cli_telnet.c" "..\src\pjlib-util\crc32.c" "..\src\pjlib-util\dns.c" "..\src\pjlib-util\dns_dump.c" "..\src\pjlib-util\dns_server.c" "..\src\pjlib-util\errno.c" "..\src\pjlib-util\getopt.c" "..\src\pjlib-util\hmac_md5.c" "..\src\pjlib-util\hmac_sha1.c" "..\src\pjlib-util\http_client.c" "..\src\pjlib-util\json.c" "..\src\pjlib-util\md5.c" "..\src\pjlib-util\pcap.c" "..\src\pjlib-util\resolver.c" "..\src\pjlib-util\scanner.c" "..\src\pjlib-util\sha1.c" "..\src\pjlib-util\srv_resolver.c" "..\src\pjlib-util\string.c" "..\src\pjlib-util\stun_simple.c" "..\src\pjlib-util\stun_simple_client.c" "..\src\pjlib-util\symbols.c" "..\src\pjlib-util\xml.c"
+         base64.c
+         cli.c
+         cli_console.c
+         cli_telnet.c
+         crc32.c
+         dns.c
+         dns_dump.c
+         dns_server.c
+         errno.c
+         getopt.c
+         hmac_md5.c
+         hmac_sha1.c
+         http_client.c
+         json.c
+         md5.c
+         pcap.c
+         resolver.c
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\src\pjlib-util\resolver.c(1036): warning C4189: 'old_state' : 已初始化區域變數，但並未參考
+         scanner.c
+         sha1.c
+         srv_resolver.c
+         正在產生程式碼...
+         正在編譯...
+         string.c
+         stun_simple.c
+         stun_simple_client.c
+         symbols.c
+         xml.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\.\output\pjlib_util--Win32-vc8-Debug\pjlib_util.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\lib\pjlib-util-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjlib_util) does not match the Library's OutputFile property value (pjlib-util-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjlib-util-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjlib_util--Win32-vc8-Debug\\base64.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\cli.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\cli_console.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\cli_telnet.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\crc32.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\dns.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\dns_dump.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\dns_server.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\errno.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\getopt.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\hmac_md5.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\hmac_sha1.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\http_client.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\json.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\md5.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\pcap.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\resolver.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\scanner.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\sha1.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\srv_resolver.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\string.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\stun_simple.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\stun_simple_client.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\symbols.obj"
+         ".\output\pjlib_util--Win32-vc8-Debug\\xml.obj"
+         pjlib_util.vcxproj -> C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\.\output\pjlib_util--Win32-vc8-Debug\pjlib_util.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjlib_util--Win32-vc8-Debug\pjlib_util.bsc" ".\output\pjlib_util--Win32-vc8-Debug\\base64.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\cli.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\cli_console.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\cli_telnet.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\crc32.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\dns.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\dns_dump.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\dns_server.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\errno.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\getopt.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\hmac_md5.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\hmac_sha1.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\http_client.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\json.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\md5.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\pcap.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\resolver.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\scanner.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\sha1.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\srv_resolver.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\string.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\stun_simple.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\stun_simple_client.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\symbols.sbr" ".\output\pjlib_util--Win32-vc8-Debug\\xml.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\pjlib_util.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:06.79

@@ -1,0 +1,36 @@
+﻿已經開始建置於 2015/3/25 下午 12:16:32。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\pjnath\build\pjnath.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /Zi /nologo /W1 /WX- /O2 /Oy- /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\pjnath\errno.c ..\src\pjnath\ice_session.c ..\src\pjnath\ice_strans.c ..\src\pjnath\nat_detect.c ..\src\pjnath\stun_auth.c ..\src\pjnath\stun_msg.c ..\src\pjnath\stun_msg_dump.c ..\src\pjnath\stun_session.c ..\src\pjnath\stun_sock.c ..\src\pjnath\stun_transaction.c ..\src\pjnath\turn_session.c ..\src\pjnath\turn_sock.c
+         errno.c
+         ice_session.c
+         ice_strans.c
+         nat_detect.c
+         stun_auth.c
+         stun_msg.c
+         stun_msg_dump.c
+         stun_session.c
+         stun_sock.c
+         stun_transaction.c
+         turn_session.c
+         turn_sock.c
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\Debug\pjnath.lib" /NOLOGO Debug\errno.obj
+         Debug\ice_session.obj
+         Debug\ice_strans.obj
+         Debug\nat_detect.obj
+         Debug\stun_auth.obj
+         Debug\stun_msg.obj
+         Debug\stun_msg_dump.obj
+         Debug\stun_session.obj
+         Debug\stun_sock.obj
+         Debug\stun_transaction.obj
+         Debug\turn_session.obj
+         Debug\turn_sock.obj
+         pjnath.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\Debug\pjnath.lib
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjhelloworld\pjnath\build\pjnath.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.08

@@ -1,0 +1,20 @@
+﻿已經開始建置於 2015/2/16 下午 02:23:03。
+     1>節點 4 (Build 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjstun_srv_test.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /ZI /nologo /W4 /WX- /Od /Oy- /D _CONSOLE /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjstun_srv_test--Win32-vc8-Debug\\" /Fd".\output\pjstun_srv_test--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjstun_srv_test--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjstun-srv-test\bind_usage.c" "..\src\pjstun-srv-test\main.c" "..\src\pjstun-srv-test\server.c" "..\src\pjstun-srv-test\turn_usage.c" "..\src\pjstun-srv-test\usage.c"
+         bind_usage.c
+     1>c1 : fatal error C1083: 無法開啟來源檔案: '..\src\pjstun-srv-test\bind_usage.c': No such file or directory
+         main.c
+     1>c1 : fatal error C1083: 無法開啟來源檔案: '..\src\pjstun-srv-test\main.c': No such file or directory
+         server.c
+     1>c1 : fatal error C1083: 無法開啟來源檔案: '..\src\pjstun-srv-test\server.c': No such file or directory
+         turn_usage.c
+     1>c1 : fatal error C1083: 無法開啟來源檔案: '..\src\pjstun-srv-test\turn_usage.c': No such file or directory
+         usage.c
+     1>c1 : fatal error C1083: 無法開啟來源檔案: '..\src\pjstun-srv-test\usage.c': No such file or directory
+         正在產生程式碼...
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjstun_srv_test.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.17

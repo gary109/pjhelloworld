@@ -1,0 +1,45 @@
+﻿已經開始建置於 2015/2/25 下午 04:33:23。
+     1>節點 4 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjnath.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjnath--Win32-vc8-Debug\\" /Fd".\output\pjnath--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjnath--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\src\pjnath\errno.c ..\src\pjnath\ice_session.c ..\src\pjnath\ice_strans.c ..\src\pjnath\nat_detect.c ..\src\pjnath\stun_auth.c ..\src\pjnath\stun_msg.c ..\src\pjnath\stun_msg_dump.c ..\src\pjnath\stun_session.c ..\src\pjnath\stun_sock.c ..\src\pjnath\stun_transaction.c ..\src\pjnath\turn_session.c ..\src\pjnath\turn_sock.c
+         errno.c
+         ice_session.c
+         ice_strans.c
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjnath\src\pjnath\ice_strans.c(1674): warning C4100: 'old_state' : 未參考的型式參數
+         nat_detect.c
+         stun_auth.c
+         stun_msg.c
+         stun_msg_dump.c
+         stun_session.c
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjnath\src\pjnath\stun_session.c(885): warning C4100: 'pkt_size' : 未參考的型式參數
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjnath\src\pjnath\stun_session.c(1384): warning C4100: 'pkt_size' : 未參考的型式參數
+         stun_sock.c
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjnath\src\pjnath\stun_sock.c(576): warning C4102: 'TODO___SUPPORT_IPV6_IN_RESOLVER' : 未參考的標籤
+         stun_transaction.c
+         turn_session.c
+         turn_sock.c
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjnath\src\pjnath\turn_sock.c(758): warning C4101: 'addrtxt' : 未參考的區域變數
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\.\output\pjnath--Win32-vc8-Debug\pjnath.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\lib\pjnath-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjnath) does not match the Library's OutputFile property value (pjnath-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjnath-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjnath--Win32-vc8-Debug\\errno.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\ice_session.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\ice_strans.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\nat_detect.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\stun_auth.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\stun_msg.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\stun_msg_dump.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\stun_session.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\stun_sock.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\stun_transaction.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\turn_session.obj"
+         ".\output\pjnath--Win32-vc8-Debug\\turn_sock.obj"
+         pjnath.vcxproj -> C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\.\output\pjnath--Win32-vc8-Debug\pjnath.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjnath--Win32-vc8-Debug\pjnath.bsc" ".\output\pjnath--Win32-vc8-Debug\\errno.sbr" ".\output\pjnath--Win32-vc8-Debug\\ice_session.sbr" ".\output\pjnath--Win32-vc8-Debug\\ice_strans.sbr" ".\output\pjnath--Win32-vc8-Debug\\nat_detect.sbr" ".\output\pjnath--Win32-vc8-Debug\\stun_auth.sbr" ".\output\pjnath--Win32-vc8-Debug\\stun_msg.sbr" ".\output\pjnath--Win32-vc8-Debug\\stun_msg_dump.sbr" ".\output\pjnath--Win32-vc8-Debug\\stun_session.sbr" ".\output\pjnath--Win32-vc8-Debug\\stun_sock.sbr" ".\output\pjnath--Win32-vc8-Debug\\stun_transaction.sbr" ".\output\pjnath--Win32-vc8-Debug\\turn_session.sbr" ".\output\pjnath--Win32-vc8-Debug\\turn_sock.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\build\pjnath.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.30

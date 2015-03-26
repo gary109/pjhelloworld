@@ -1,0 +1,55 @@
+﻿已經開始建置於 2015/2/16 下午 02:23:15。
+     1>節點 5 (Build 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\pjlib_util_test.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /ZI /nologo /W4 /WX- /Od /Oy- /D _CONSOLE /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjlib_util_test--Win32-vc8-Debug\\" /Fd".\output\pjlib_util_test--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjlib_util_test--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjlib-util-test\encryption.c" "..\src\pjlib-util-test\http_client.c" "..\src\pjlib-util-test\json_test.c" "..\src\pjlib-util-test\main.c" "..\src\pjlib-util-test\resolver_test.c" "..\src\pjlib-util-test\stun.c" "..\src\pjlib-util-test\test.c" "..\src\pjlib-util-test\xml.c"
+         encryption.c
+         http_client.c
+         json_test.c
+         main.c
+         resolver_test.c
+         stun.c
+         test.c
+         xml.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\.\output\pjlib_util_test--Win32-vc8-Debug\pjlib_util_test.exe) does not match the Linker's OutputFile property value (C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\bin\pjlib-util-test-i386-Win32-vc8-Debug.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(pjlib_util_test) does not match the Linker's OutputFile property value (pjlib-util-test-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\pjlib-util-test-i386-Win32-vc8-Debug.exe" /NOLOGO netapi32.lib mswsock.lib ws2_32.lib odbc32.lib odbccp32.lib oleaut32.lib ole32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\output\pjlib_util_test--Win32-vc8-Debug\\pjlib_util_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\output\pjlib_util_test--Win32-vc8-Debug\pjlib_util_test.lib" /MACHINE:X86 /SAFESEH ".\output\pjlib_util_test--Win32-vc8-Debug\\encryption.obj"
+         ".\output\pjlib_util_test--Win32-vc8-Debug\\http_client.obj"
+         ".\output\pjlib_util_test--Win32-vc8-Debug\\json_test.obj"
+         ".\output\pjlib_util_test--Win32-vc8-Debug\\main.obj"
+         ".\output\pjlib_util_test--Win32-vc8-Debug\\resolver_test.obj"
+         ".\output\pjlib_util_test--Win32-vc8-Debug\\stun.obj"
+         ".\output\pjlib_util_test--Win32-vc8-Debug\\test.obj"
+         ".\output\pjlib_util_test--Win32-vc8-Debug\\xml.obj"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\lib\pjlib-util-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib\lib\pjlib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-audiodev-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-codec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-videodev-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\lib\pjnath-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-core-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-simple-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-ua-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua2-lib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua-lib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libbaseclasses-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libg7221codec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libgsmcodec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libilbccodec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libmilenage-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libportaudio-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libresample-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libspeex-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libsrtp-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\lib\libpjproject-i386-Win32-vc8-Debug.lib"
+     1>encryption.obj : warning LNK4075: 忽略 '/EDITANDCONTINUE'，由於 '/SAFESEH' 規格
+         pjlib_util_test.vcxproj -> C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\.\output\pjlib_util_test--Win32-vc8-Debug\pjlib_util_test.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjlib_util_test--Win32-vc8-Debug\pjlib_util_test.bsc" ".\output\pjlib_util_test--Win32-vc8-Debug\\encryption.sbr" ".\output\pjlib_util_test--Win32-vc8-Debug\\http_client.sbr" ".\output\pjlib_util_test--Win32-vc8-Debug\\json_test.sbr" ".\output\pjlib_util_test--Win32-vc8-Debug\\main.sbr" ".\output\pjlib_util_test--Win32-vc8-Debug\\resolver_test.sbr" ".\output\pjlib_util_test--Win32-vc8-Debug\\stun.sbr" ".\output\pjlib_util_test--Win32-vc8-Debug\\test.sbr" ".\output\pjlib_util_test--Win32-vc8-Debug\\xml.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\build\pjlib_util_test.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:04.60

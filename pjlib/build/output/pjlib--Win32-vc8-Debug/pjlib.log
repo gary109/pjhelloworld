@@ -1,0 +1,113 @@
+﻿已經開始建置於 2015/2/25 下午 04:33:00。
+     1>節點 3 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib\build\pjlib.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjlib--Win32-vc8-Debug\\" /Fd".\output\pjlib--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjlib--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\src\pj\activesock.c ..\src\pj\addr_resolv_sock.c ..\src\pj\array.c ..\src\pj\config.c ..\src\pj\ctype.c ..\src\pj\errno.c ..\src\pj\except.c ..\src\pj\fifobuf.c ..\src\pj\file_access_win32.c ..\src\pj\file_io_win32.c ..\src\pj\guid.c ..\src\pj\guid_win32.c ..\src\pj\hash.c ..\src\pj\ioqueue_select.c ..\src\pj\ip_helper_win32.c ..\src\pj\list.c ..\src\pj\lock.c ..\src\pj\log.c ..\src\pj\log_writer_stdout.c ..\src\pj\os_core_win32.c ..\src\pj\os_error_win32.c ..\src\pj\os_info.c ..\src\pj\os_timestamp_common.c ..\src\pj\os_timestamp_win32.c ..\src\pj\os_time_win32.c ..\src\pj\pool.c ..\src\pj\pool_buf.c ..\src\pj\pool_caching.c ..\src\pj\pool_dbg.c ..\src\pj\pool_policy_malloc.c ..\src\pj\rand.c ..\src\pj\rbtree.c ..\src\pj\sock_bsd.c ..\src\pj\sock_common.c ..\src\pj\sock_qos_bsd.c ..\src\pj\sock_qos_common.c ..\src\pj\sock_qos_dummy.c ..\src\pj\sock_qos_wm.c ..\src\pj\sock_select.c ..\src\pj\ssl_sock_common.c ..\src\pj\ssl_sock_dump.c ..\src\pj\ssl_sock_ossl.c ..\src\pj\string.c ..\src\pj\timer.c ..\src\pj\types.c ..\src\pj\unicode_win32.c
+         activesock.c
+         addr_resolv_sock.c
+         array.c
+         config.c
+         ctype.c
+         errno.c
+         except.c
+         fifobuf.c
+         file_access_win32.c
+         file_io_win32.c
+         guid.c
+         guid_win32.c
+         hash.c
+         ioqueue_select.c
+         ip_helper_win32.c
+         list.c
+         lock.c
+         log.c
+         log_writer_stdout.c
+         os_core_win32.c
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjlib\src\pj\os_core_win32.c(239): warning C4189: 'rec' : 已初始化區域變數，但並未參考
+         正在產生程式碼...
+         正在編譯...
+         os_error_win32.c
+         os_info.c
+         os_timestamp_common.c
+         os_timestamp_win32.c
+         os_time_win32.c
+         pool.c
+         pool_buf.c
+         pool_caching.c
+         pool_dbg.c
+         pool_policy_malloc.c
+         rand.c
+         rbtree.c
+         sock_bsd.c
+         sock_common.c
+         sock_qos_bsd.c
+         sock_qos_common.c
+         sock_qos_dummy.c
+         sock_qos_wm.c
+         sock_select.c
+         ssl_sock_common.c
+         正在產生程式碼...
+         正在編譯...
+         ssl_sock_dump.c
+         ssl_sock_ossl.c
+         string.c
+         timer.c
+         types.c
+         unicode_win32.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib\build\.\output\pjlib--Win32-vc8-Debug\pjlib.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib\lib\pjlib-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjlib) does not match the Library's OutputFile property value (pjlib-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjlib-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjlib--Win32-vc8-Debug\\activesock.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\addr_resolv_sock.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\array.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\config.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\ctype.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\errno.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\except.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\fifobuf.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\file_access_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\file_io_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\guid.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\guid_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\hash.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\ioqueue_select.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\ip_helper_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\list.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\lock.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\log.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\log_writer_stdout.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\os_core_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\os_error_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\os_info.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\os_timestamp_common.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\os_timestamp_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\os_time_win32.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\pool.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\pool_buf.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\pool_caching.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\pool_dbg.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\pool_policy_malloc.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\rand.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\rbtree.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\sock_bsd.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\sock_common.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\sock_qos_bsd.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\sock_qos_common.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\sock_qos_dummy.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\sock_qos_wm.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\sock_select.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\ssl_sock_common.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\ssl_sock_dump.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\ssl_sock_ossl.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\string.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\timer.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\types.obj"
+         ".\output\pjlib--Win32-vc8-Debug\\unicode_win32.obj"
+         pjlib.vcxproj -> C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib\build\.\output\pjlib--Win32-vc8-Debug\pjlib.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjlib--Win32-vc8-Debug\pjlib.bsc" ".\output\pjlib--Win32-vc8-Debug\\activesock.sbr" ".\output\pjlib--Win32-vc8-Debug\\addr_resolv_sock.sbr" ".\output\pjlib--Win32-vc8-Debug\\array.sbr" ".\output\pjlib--Win32-vc8-Debug\\config.sbr" ".\output\pjlib--Win32-vc8-Debug\\ctype.sbr" ".\output\pjlib--Win32-vc8-Debug\\errno.sbr" ".\output\pjlib--Win32-vc8-Debug\\except.sbr" ".\output\pjlib--Win32-vc8-Debug\\fifobuf.sbr" ".\output\pjlib--Win32-vc8-Debug\\file_access_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\file_io_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\guid.sbr" ".\output\pjlib--Win32-vc8-Debug\\guid_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\hash.sbr" ".\output\pjlib--Win32-vc8-Debug\\ioqueue_select.sbr" ".\output\pjlib--Win32-vc8-Debug\\ip_helper_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\list.sbr" ".\output\pjlib--Win32-vc8-Debug\\lock.sbr" ".\output\pjlib--Win32-vc8-Debug\\log.sbr" ".\output\pjlib--Win32-vc8-Debug\\log_writer_stdout.sbr" ".\output\pjlib--Win32-vc8-Debug\\os_core_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\os_error_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\os_info.sbr" ".\output\pjlib--Win32-vc8-Debug\\os_timestamp_common.sbr" ".\output\pjlib--Win32-vc8-Debug\\os_timestamp_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\os_time_win32.sbr" ".\output\pjlib--Win32-vc8-Debug\\pool.sbr" ".\output\pjlib--Win32-vc8-Debug\\pool_buf.sbr" ".\output\pjlib--Win32-vc8-Debug\\pool_caching.sbr" ".\output\pjlib--Win32-vc8-Debug\\pool_dbg.sbr" ".\output\pjlib--Win32-vc8-Debug\\pool_policy_malloc.sbr" ".\output\pjlib--Win32-vc8-Debug\\rand.sbr" ".\output\pjlib--Win32-vc8-Debug\\rbtree.sbr" ".\output\pjlib--Win32-vc8-Debug\\sock_bsd.sbr" ".\output\pjlib--Win32-vc8-Debug\\sock_common.sbr" ".\output\pjlib--Win32-vc8-Debug\\sock_qos_bsd.sbr" ".\output\pjlib--Win32-vc8-Debug\\sock_qos_common.sbr" ".\output\pjlib--Win32-vc8-Debug\\sock_qos_dummy.sbr" ".\output\pjlib--Win32-vc8-Debug\\sock_qos_wm.sbr" ".\output\pjlib--Win32-vc8-Debug\\sock_select.sbr" ".\output\pjlib--Win32-vc8-Debug\\ssl_sock_common.sbr" ".\output\pjlib--Win32-vc8-Debug\\ssl_sock_dump.sbr" ".\output\pjlib--Win32-vc8-Debug\\ssl_sock_ossl.sbr" ".\output\pjlib--Win32-vc8-Debug\\string.sbr" ".\output\pjlib--Win32-vc8-Debug\\timer.sbr" ".\output\pjlib--Win32-vc8-Debug\\types.sbr" ".\output\pjlib--Win32-vc8-Debug\\unicode_win32.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib\build\pjlib.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:19.18

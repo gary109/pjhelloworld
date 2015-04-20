@@ -24,6 +24,8 @@
 #include <pjnath.h>
 #include <pj/log.h>
 
+#include "test.h"
+
 int main()
 {
 	pj_status_t rc;
@@ -51,10 +53,60 @@ int main()
 			continue;
 
 		if (strcmp(cmd, "q") == 0) {
-
 			PJ_LOG(3, ("main.c", "Bye Bye.."));
 			break;
+		}else if (strcmp(cmd, "t") == 0) {
+			PJ_LOG(3, ("main.c", "select test..."));
+			select_test();
 		}
+		else if (strcmp(cmd, "x") == 0) {
+			PJ_LOG(3, ("main.c", "send test..."));
+
+			pj_sock_t udp1 = PJ_INVALID_SOCKET, udp2 = PJ_INVALID_SOCKET;
+			pj_sockaddr_in udp_addr;
+			int status;
+			int setcount[3];
+			pj_str_t s;
+			const char data[] = "hello";
+			const int datalen = 5;
+			pj_ssize_t sent, received;
+			char buf[10];
+			pj_status_t rc;
+
+			// Create two UDP sockets.
+			rc = pj_sock_socket(pj_AF_INET(), pj_SOCK_DGRAM(), 0, &udp1);
+			if (rc != PJ_SUCCESS) {
+				//app_perror("...error: unable to create socket", rc);
+				status = -10; goto on_return;
+			}
+			rc = pj_sock_socket(pj_AF_INET(), pj_SOCK_DGRAM(), 0, &udp2);
+			if (udp2 == PJ_INVALID_SOCKET) {
+				//app_perror("...error: unable to create socket", rc);
+				status = -20; goto on_return;
+			}
+			// Bind one of the UDP socket.
+			pj_bzero(&udp_addr, sizeof(udp_addr));
+			udp_addr.sin_family = pj_AF_INET();
+			udp_addr.sin_port = 55660;
+			udp_addr.sin_addr = pj_inet_addr(pj_cstr(&s, "127.0.0.1"));
+			if (pj_sock_bind(udp2, &udp_addr, sizeof(udp_addr))) {
+				status = -30; goto on_return;
+			}
+
+
+
+		on_return:
+
+
+		}
+
+
+
 	}
+
+
+
+
+
 	return 0;
 }
